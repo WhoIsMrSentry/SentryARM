@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; background: #f4f6f8; color: #111; margin: 16px; }
+.wrap { position: relative; display: inline-block; }
+video, canvas { width: 640px; height: 480px; border-radius: 6px; }
+canvas { position: absolute; left: 0; top: 0; }

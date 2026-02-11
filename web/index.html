@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ConHand - Web Receiver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ConHand - Web Receiver (MediaPipe Hands)</h1>
+  <div class="wrap">
+    <video id="video" autoplay muted playsinline></video>
+    <canvas id="output"></canvas>
+  </div>
+  <p>Tarayıcı kamera erişimine izin verin. Model el iskeletini çizecektir.</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
